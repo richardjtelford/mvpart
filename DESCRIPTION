@@ -1,0 +1,16 @@
+Package: mvpart
+Version: 1.6-3
+Author: rpart by Terry M Therneau and Beth Atkinson <atkinson@mayo.edu>.
+    R port of rpart by Brian Ripley <ripley@stats.ox.ac.uk>.
+    Some routines from vegan -- Jari Oksanen <jari.oksanen@oulu.fi>
+    Extensions and adaptations of rpart to mvpart by Glenn De'ath <g.death@aims.gov.au>.
+Maintainer: Glenn De'ath <g.death@aims.gov.au>
+Description: Fits multivariate regression trees.
+Title: Multivariate partitioning
+Imports: graphics, stats, grDevices
+Suggests: survival
+LazyData: yes
+ByteCompile: yes
+License: GPL-2 | GPL-3
+NeedsCompilation: yes
+RoxygenNote: 6.1.1
