@@ -98,7 +98,7 @@
     # 1 is a minimum distance allowed
     slide <- min(right$left[1:mind] - left$right[1:mind]) -1
     if (slide >0) { # slide the right hand node to the left
-        x[right$sons] <- x[right$sons] - slide;
+        x[right$sons] <- x[right$sons] - slide
         x[me] <- (x[right$sons[1]] + x[left$sons[1]])/2
 #       assign("x", x)
             x <<- x
